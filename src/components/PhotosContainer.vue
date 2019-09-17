@@ -1,7 +1,9 @@
 <template>
   <div class='photos-container'>
+    <div class='photo-cards'>
     <div v-bind:key="photo.id" v-for="photo in photos">
     <PhotoCard v-bind:photo="photo"/>
+    </div>
     </div>
   </div>
 </template>
@@ -14,15 +16,29 @@ export default {
    components: {
     PhotoCard
   },
-  props: ['photos']
+  props: ['photos', 'homePhoto']
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.home-image {
+  border: 1px solid black;
+  height: 100px;
+  width: 400px;
+}
+
 .photos-container {
   display: flex;
+  flex-direction: column;
+}
+
+.photo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 h3 {
