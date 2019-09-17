@@ -24,9 +24,16 @@ npm run serve
 ## Screenshots 
 
 ![Home](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Home.png)
+
+
 ![About](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/About.png)
+
+
 ![Puppies](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Puppies.png)
+
+
 ![Zebras](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Zebras.png)
+
 
 ## Tech
 
