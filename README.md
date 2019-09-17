@@ -24,7 +24,7 @@ npm run serve
 
 ## Screenshots 
 
-![Home]()
+![Home](About.png)
 ![About]()
 ![Puppies]()
 ![Zebras]()
