@@ -11,4 +11,9 @@
 p {
   font-size: 1.5em;
 }
+
+img { 
+  height: 600px;
+  width: auto;
+}
 </style>
