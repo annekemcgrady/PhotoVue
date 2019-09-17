@@ -52,6 +52,7 @@ export default {
 input {
   height: 50px;
   width: 200px;
+  border: 1px solid darkcyan;
 }
 
 

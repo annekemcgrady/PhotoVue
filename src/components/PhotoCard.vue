@@ -14,11 +14,11 @@ export default {
 
 <style scoped>
 .photo-card {
-  height: 300px;
-  width: 330px;
+  height: auto;
+  width: auto;
   border: 1px solid black;
   margin: 10px;
-  padding: 5px;
+  padding: 15px;
 }
 
 img {
