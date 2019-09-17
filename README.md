@@ -24,7 +24,7 @@ npm run serve
 
 ## Screenshots 
 
-![Home]()
+![Home](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Home.png)
 ![About](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/About.png)
 ![Puppies]()
 ![Zebras]()
