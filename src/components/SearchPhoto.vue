@@ -33,7 +33,7 @@ export default {
 <style scoped>
 
 .search-form {
-  height: 120px;
+  height: 100px;
   width: 100%;
   border:  1px solid darkcyan;
   display: flex;
@@ -42,10 +42,10 @@ export default {
 }
 
 .btn {
-  height: 50px;
+  height: 54px;
   width: 200px;
+  margin-left: 5px;
   background-color: darkcyan;
-  
 }
 
 input {
