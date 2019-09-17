@@ -1,7 +1,7 @@
 <template>
    <div class="photo-card" >
-      <h3>This is the PhotoCard</h3>
-      <p>{{photo.title}}</p>
+      <p>{{photo.description}}</p>
+      <img :src="photo.url" alt="Relavant photo">
     </div>
 </template>
 
@@ -14,9 +14,14 @@ export default {
 
 <style scoped>
 .photo-card {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 350px;
   border: 1px solid black;
   margin: 10px;
+}
+
+img {
+  height: 200px;
+  width: auto;
 }
 </style>
