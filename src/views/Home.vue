@@ -14,7 +14,11 @@
 import PhotosContainer from '@/components/PhotosContainer.vue'
 import SearchPhoto from '@/components/SearchPhoto.vue'
 import axios from 'axios'
-import { VUE_APP_ACCESS_KEY} from '@/components/apiKeys.js'
+require('dotenv').config();
+import { VUE_APP_ACCESS_KEY } from '@/components/apiKeys.js'
+var api_key = process.env.VUE_APP_ACCESS_KEY;
+
+console.log(api_key)
 
 export default {
   name: 'home',
@@ -25,7 +29,7 @@ export default {
   data() {
     return {
       homePhoto: {},
-      photos: [{id:2, description: 'Fake Photo Description', url: "https://images.unsplash.com/photo-1562184760-a11b3cf7c169?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjkxNjYzfQ"}],
+      photos: [],
       isLoading: true,
       error: ''
       }  
@@ -52,6 +56,10 @@ export default {
 </script>
 
 <style scoped>
+
+p {
+  font-size: 1.2em;
+}
 
 img {
   height: 300px;
