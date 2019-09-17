@@ -4,7 +4,7 @@ PhotoVue is a photo searching and viewing application.  Utilizing the Unsplash A
 
 ## Learning Goals
 
-This application was an exercise for using an unfamiliar framework and consuming an API. 
+This application was an exercise for building a single page application using an unfamiliar framework (Vue.js) and consuming an API (Unsplash API). 
 
 ## Production Link (Not working - please see issues)
 
@@ -14,7 +14,6 @@ https://photo-vue.herokuapp.com/
 ```
 Clone Done this repo: https://github.com/annekemcgrady/PhotoVue
 ```
-
 ```
 npm install
 ```
@@ -27,8 +26,8 @@ npm run serve
 ![Home](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Home.png)
 ![About](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/About.png)
 ![Puppies](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Puppies.png)
-![Zebras]()
+![Zebras](https://github.com/annekemcgrady/PhotoVue/blob/master/src/assets/Zebras.png)
 
 ## Tech
 
-PhotoVue uses the Vue.js CLI 3 framework.  
+PhotoVue was built using the the Vue.js CLI 3 framework.  
