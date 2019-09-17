@@ -40,10 +40,7 @@ export default {
       .catch(error => this.error = error.message)
     }
   },
-  mounted( ){
-   console.log('ENV VARS', process.env.VUE_APP_ACCESS_KEY)
-  },
-
+ 
   created() {
     axios.get(`https://api.unsplash.com/photos/random?client_id=${process.env.VUE_APP_ACCESS_KEY}`)
     .then(object => this.homePhoto = object.data)
@@ -57,6 +54,11 @@ export default {
 
 <style scoped>
 
+h1 {
+  font-size: 2.5em;
+  margin: 10px;
+}
+
 p {
   font-size: 1.2em;
 }
@@ -67,7 +69,7 @@ p {
 }
 
 img {
-  height: 300px;
+  height: 200px;
   width: auto;
 }
 </style>
