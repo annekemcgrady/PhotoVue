@@ -45,6 +45,7 @@ export default {
   height: 50px;
   width: 200px;
   background-color: darkcyan;
+  
 }
 
 input {
