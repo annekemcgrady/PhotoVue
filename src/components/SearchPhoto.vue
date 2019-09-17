@@ -18,12 +18,10 @@ export default {
   }, 
   methods: {
     searchPhoto(e)  {
-        console.log('SearchPhoto on Form Firing')
       e.preventDefault();
       const searchWord = {
         title: this.title
       }
-      //send up to the parent
       this.$emit('search-photo', searchWord)
       this.title = '';
     }
@@ -52,6 +50,7 @@ export default {
 input {
   height: 50px;
   width: 200px;
+  border: 1px solid darkcyan;
 }
 
 
