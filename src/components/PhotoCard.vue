@@ -1,11 +1,11 @@
 <template>
    <div class="photo-card" >
-      <p>{{photo.description}}</p>
-      <img :src="photo.url" alt="Relavant photo">
+      <img :src=photo.urls.small alt="Relevant photo">
     </div>
 </template>
 
 <script>
+
 export default {
   name: 'PhotoCard',
   props: ['photo']
@@ -15,13 +15,14 @@ export default {
 <style scoped>
 .photo-card {
   height: 300px;
-  width: 350px;
+  width: 330px;
   border: 1px solid black;
   margin: 10px;
+  padding: 5px;
 }
 
 img {
   height: 200px;
-  width: auto;
+  max-width: 320px;
 }
 </style>
