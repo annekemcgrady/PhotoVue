@@ -4,7 +4,7 @@
     <p class='error' v-if="error"> Loading ...</p>
     <h1>Welcome to PhotoVue</h1>
     <p>What would you like to see today?<br>Enter a word below and find your inspiration...</p>
-     <img v-bind:homePhoto="homePhoto" :src=homePhoto.urls.full alt="Relevant photo">
+     <img class='home-image' v-bind:homePhoto="homePhoto" :src=homePhoto.urls.full alt="Relevant photo">
     <SearchPhoto v-on:search-photo="searchPhoto"/>
     <PhotosContainer v-bind:photos="photos" v-bind:homePhoto="homePhoto" />
   </div>
@@ -54,6 +54,14 @@ export default {
 
 <style scoped>
 
+.home-image {
+  height: 200px;
+  width: auto;
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.5);
+}
+
 h1 {
   font-size: 2.5em;
   margin: 10px;
@@ -68,8 +76,4 @@ p {
   font-size: 2em;
 }
 
-img {
-  height: 200px;
-  width: auto;
-}
 </style>

@@ -24,9 +24,10 @@ export default {
 <style scoped>
 
 .home-image {
-  border: 1px solid black;
   height: 100px;
   width: 400px;
+  padding: 10px;
+  border: 1px solid black;
 }
 
 .photos-container {
