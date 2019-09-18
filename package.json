@@ -9,7 +9,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "npm start"
+    "start": "vue-cli-service serve"
   },
   "dependencies": {
     "axios": "^0.19.0",
