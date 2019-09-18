@@ -35,7 +35,6 @@ export default {
 .search-form {
   height: 100px;
   width: 100%;
-  border:  1px solid darkcyan;
   display: flex;
   justify-content: center;
   align-items: center;

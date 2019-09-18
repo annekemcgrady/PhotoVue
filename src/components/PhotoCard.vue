@@ -19,6 +19,7 @@ export default {
   border: 1px solid black;
   margin: 10px;
   padding: 15px;
+  box-shadow: -5px 7px 5px 0px rgba(0,0,0,0.5);
 }
 
 img {
