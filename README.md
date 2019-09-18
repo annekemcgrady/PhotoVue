@@ -1,6 +1,6 @@
 # PhotoVue
 
-PhotoVue is a photo searching and viewing application.  Utilizing the Unsplash API, a user can search for any word and have beautiful images inspired by that word diplayed. 
+PhotoVue is a photo searching and viewing application.  Utilizing the Unsplash API, a user can search for any word and have beautiful images inspired by that word displayed. 
 
 ## Learning Goals
 
