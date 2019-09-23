@@ -6,7 +6,7 @@ PhotoVue is a photo searching and viewing application.  Utilizing the Unsplash A
 
 This application was an exercise for building a single page application using an unfamiliar framework (Vue.js) and consuming an API (Unsplash API). 
 
-## Production Link (Not working - please see issues)
+## Production Link 
 
 https://photo-vue.herokuapp.com/
 
